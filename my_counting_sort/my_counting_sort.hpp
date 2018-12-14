@@ -11,7 +11,7 @@
  returns a new sorted array that is allocated on the heap leaving the original
  input array uneffected. The user should note that the array returned by this
  function will not be deleted automatically. It must be manually deleted from
- inside the calee before the calee before control is transferred from it.
+ inside the caller before control is transferred from it.
 */
 
 #ifndef my_counting_sort_h
